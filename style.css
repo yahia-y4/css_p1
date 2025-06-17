@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #161616;
+}
+.header{
+    background-color: #222222;
+    height: 100px;
+    color: white;
+    display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.header_options{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+.header_options div{
+    font-size: 15px;
+}
+.logo{
+    font-size: 36px;
+}
+
+.body_c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.image_div img{
+    width: 251px;
+    height: 223px;
+}
