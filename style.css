@@ -1,40 +1,120 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: #161616;
 }
-.header{
+
+.header {
     background-color: #222222;
     height: 100px;
     color: white;
     display: flex;
-align-items: center;
-justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
 }
-.header_options{
+
+.header_options {
     display: flex;
     width: 300px;
     justify-content: space-around;
 }
-.header_options div{
+
+.header_options div {
     font-size: 15px;
 }
-.logo{
+
+.logo {
     font-size: 36px;
 }
 
-.body_c{
+.body_c {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    text-align: center;
+
 }
 
 
-.image_div img{
+.image_div img {
     width: 251px;
     height: 223px;
+
+}
+
+.title_div {
+    margin-top: 50px;
+
+}
+
+.title_div h3 {
+    font-size: 55px;
+    color: white;
+
+}
+
+.title_div span {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    background-clip: text;
+    color: transparent;
+}
+
+.About_Me_div {
+    margin-top: 40px;
+    height: 100px;
+
+}
+
+.About_Me_div p {
+    color: rgb(170, 160, 160);
+    font-size: 18px;
+}
+
+.Action_Buttons_div {
+    margin-top: 30px;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.Get_In_Touch_Button {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.Download_CV_Button {
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+
+.EXPERIENCE {
+    margin-top: 40px;
+    color: rgb(158, 155, 155);
+    font-size: 15px;
+
+}
+
+.Logos_in_body {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 200px;
+    width: 300px;
+    justify-content: space-around;
+    direction: rtl;
+}
+
+.Logos_in_body img {
+    display: block;
+    width: 28px;
+    height: 25px;
 }
