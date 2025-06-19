@@ -1,10 +1,16 @@
+
+
+
+
+
 * {
     margin: 0px;
     padding: 0px;
+    font-family:  'Segoe UI', sans-serif;;
 }
 
 body {
-    background-color: #161616;
+    background-color: #0c0c0c;
 }
 
 .header {
@@ -37,6 +43,9 @@ body {
     justify-content: center;
     margin-top: 100px;
     text-align: center;
+
+    padding-bottom: 100px;
+
 
 }
 
@@ -107,7 +116,6 @@ body {
 .Logos_in_body {
     margin-top: 30px;
     display: flex;
-    margin-bottom: 200px;
     width: 300px;
     justify-content: space-around;
     direction: rtl;
@@ -118,3 +126,168 @@ body {
     width: 28px;
     height: 25px;
 }
+
+.Projects {
+
+    margin-top: 40px;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #FF8660, #D5491D);
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+}
+
+
+.Project_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+.Project_card_div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.Project_card_div img {
+    width: 390px;
+    height: 235px;
+
+}
+
+.Project_card_div .bottom_part {
+    text-align: left;
+    background-color: #2A2A2A;
+    padding: 10px;
+    border-radius: 0px 0px 18px 18px;
+}
+
+.Project_card_div .bottom_part .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Project_card_div .bottom_part p {
+    font-size: 10px;
+    color: #C5C5C5;
+}
+
+.Project_card_div .bottom_part h3 {
+    font-size: 19px;
+    color: white;
+}
+
+.Experience {
+    background: linear-gradient(to bottom, #5BADFF, #1373D1);
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    margin-top: 50px;
+      text-transform: uppercase;
+    
+}
+
+.Experience_Section{
+    width: 45%;
+    text-align: left;
+    margin-top: 50px;
+}
+.one_Section{
+    margin-bottom: 60px;
+}
+
+.one_Section .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.one_Section .title section div{
+    font-size: 21.74px;
+    color: #fff;
+}
+.one_Section .title section{
+    display: flex;
+    width: 365px;
+    justify-content: space-between;
+} 
+.one_Section .title .meta_s{
+        display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.one_Section .title .meta_img{
+     width: 30px;
+    height: 22px;
+}
+.one_Section .title section img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.one_Section .title .date{
+    font-size: 14.49px;
+    color: #8491A0;
+}
+
+.one_Section p{
+    color: #8491A0;
+    font-size: 14.49px;
+}
+
+
+.footer_c{
+    background-color: #191919;
+    height: 500px;
+}
+
+.cridet_div{
+  
+    width: 45%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.footer_c .Contact{
+    color: #fff;
+    font-size: 30px
+
+}
+
+.cridet_div p{
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 110%;
+    color: #8491A0;
+}
+.email{
+
+    display: flex;
+    margin-top: 20px;
+    width: 25%;
+    justify-content: space-between;
+
+}
+.email p{
+  color: #C5C5C5;
+  margin-top: 0px;
+}
+
+.foot_icons {
+    margin-top: 40px;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+.foot_icons div{
+  
+    display: flex;
+    align-items: center;
+}
+    
